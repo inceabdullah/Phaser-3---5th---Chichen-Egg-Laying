@@ -88,8 +88,24 @@ add image to physics in egg.js:
 
   
       }`
+      
+   ## nearly Resolved
+   with
+   ```
+     if (this.__jump_say % 4 === 0){
+
+    this.jumpFx_after();
+
+  }
+
+   ```
+   
+   in the `chickenJump()` function
 
 
 Sometimes the chickens' Y velocity has negative number, meaning, the chicken does not falling, flying the top.
+
+## [Facebook instant games](https://www.facebook.com/instantgames/546807166078954/ "Facebook instant games")
+
 
 ## [Demo](https://html5.ozguruygulama.com/chicken_egg_laying/index.html "Demo")
